@@ -23,28 +23,6 @@ A while ago, there was a need to read Epub files and iOS did not have a native w
 - iOS 14.0+
 - SwiftUI
 
-## Installation
-
-### Swift Package Manager
-
-Add the following dependency to your `Package.swift` file:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/dancarvajc/EbookReader.git", from: "0.1.0")
-]
-```
-
-Then, add `YourPackage` to your target dependencies:
-
-```swift
-.target(
-    name: "YourTarget",
-    dependencies: [
-        "EbookReader"
-    ]),
-```
-
 ## Usage
 
 1) Create an instance of `EbookReaderView` within your app.
@@ -80,10 +58,31 @@ EbookReaderManager.shared.scrollUp() // To scroll up within the page
 
 EbookReaderManager.shared.scrollDown() // To scroll down within the page
 ```
+You can check the `Demo` folder for a comprehensive example
+
+## Installation
+
+### Swift Package Manager
+
+Add the following dependency to your `Package.swift` file:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/dancarvajc/EbookReader.git", from: "0.1.0")
+]
+```
+
+Then, add `YourPackage` to your target dependencies:
+
+```swift
+.target(
+    name: "YourTarget",
+    dependencies: [
+        "EbookReader"
+    ]),
+```
 
 ## Credits
 
 Thanks to @stonezhl for providing the [Bookbinder](https://github.com/stonezhl/Bookbinder) package
-
-## License
 
