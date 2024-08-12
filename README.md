@@ -7,7 +7,7 @@
 
 EbookReader is, guess what, an _ebook_ _reader_ for iOS made with SwiftUI. 
 
-A while ago, there was a need to read Epub files and iOS did not have a native way to do it. Dependencies such as FolioReaderKit were already deprecated and came with a lot of extra functionality which was not required. Thus, EbookReader was born. It's a simple epub reader!
+A while ago, I had a need to read Epub files for a personal project and iOS didn't have a native way to do it. Dependencies like FolioReaderKit were already obsolete and came with a lot of extra functionality that wasn't necessary for me, so EbookReader was born, a simple epub reader!
 
 <video src="assets/example-ebook.mp4"></video>
 
